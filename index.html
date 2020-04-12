@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/glider.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/6cb5f3e07d.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+
+</head>
+<body>
+  
+  <header>
+
+    <div class="blur"></div>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="logo">
+          <a href="index.html"><span>ONLINE LAB</span></a>
+        </div>
+        <ul>
+          <li><a href="pricing.html" class="active">Start Learning Today</a></li>
+        </ul>
+      </div>
+     
+    </nav>
+    <div class="header-content">
+      <div class="trans">
+        <h1>Let's Start Learning With Us Today</h1>
+        <p class="header-intro">Broaden your future with classes in technology, <br>
+          photography, design, and more.</p>
+        <p class="signUp">
+          <a href="pricing.html"><span class="start">Start Learning Today</span></a>
+        </p>
+        <span class="cancel">You can cancel anytime.</span>
+
+      </div>
+    </div>
+  </header>
+  <section class="section-1">
+    <div class="section-wrapper">
+      <h1>Our Popular Courses</h1>
+      <div class="categories">
+        <button class="btn active" data-target='all' >All</button>
+        <button class="btn" id="design" data-target='design'>Design</button>
+        <button class="btn" id="illustration" data-target='illustration'>Illustration</button>
+        <button class="btn"id="business" data-target='business'>Business</button>
+        <button class="btn"id="tech" data-target='tech'>Technology</button>
+        <button class="btn" id="photo" data-target='photo'>Photo</button>
+      </div>
+      <div class="classes">
+        <div class="class business" data-id="business">
+          <div class="class-image">
+         
+          </div>
+          <div class="class-feature">
+            <h3>Creating and Giving Business Presentations</h3>
+            <div class="teacher">
+              <p class="name">Teacher: David Brent</p>
+            </div>
+            <ul>
+              <li><span>1h 5m</span></li>
+              <li><span>2400 views</span></li>
+              <li><span>12 comments</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="class tech"  data-id="tech">
+          <div class="class-image i-1">
+           
+          </div>
+          <div class="class-feature">
+            <h3>Learning Web Development From Scratch</h3>
+            <div class="teacher">
+              <p class="name">Teacher: Jack Stone</p>
+            </div>
+            <ul>
+              <li><span>3h 5m</span></li>
+              <li><span>29100 views</span></li>
+              <li><span>89 comments</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="class design" data-id="design" >
+          <div class="class-image i-2">
+           
+          </div>
+          <div class="class-feature">
+            <h3>Design Fundamentals</h3>
+            <div class="teacher">
+              <p class="name">Teacher: Olivia Smith</p>
+            </div>
+            <ul>
+              <li><span>1h 15m</span></li>
+              <li><span>3400 views</span></li>
+              <li><span>7 comments</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="class business" data-id="business">
+          <div class="class-image i-3">
+            
+          </div>
+          <div class="class-feature">
+            <h3>Tips for Working with Teams</h3>
+            <div class="teacher">
+              <p class="name">Teacher: David Brent</p>
+            </div>
+            <ul>
+              <li><span>1h 5m </span></li>
+              <li><span>4202 views</span></li>
+              <li><span>18 comments</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="class photo" data-id="photo">
+          <div class="class-image i-4">
+            
+          </div>
+          <div class="class-feature">
+            <h3>How to Take a Good Shot</h3>
+            <div class="teacher">
+              <p class="name">Teacher: Oscar Jones</p>
+            </div>
+            <ul>
+              <li><span>0h 55m</span></li>
+              <li><span>1300 views</span></li>
+              <li><span>2 comments</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="class tech" data-id="tech" >
+          <div class="class-image i-5">
+         
+          </div>
+          <div class="class-feature">
+            <h3>Learning the Basics of JavaScript
+            </h3>
+            <div class="teacher">
+              <p class="name">Teacher: David Brent</p>
+            </div>
+            <ul>
+              <li><span>3h 21m</span></li>
+              <li><span>52400 views</span></li>
+              <li><span>23 comments</span></li>
+            </ul>
+          </div>
+
+        </div>
+        
+        <div class="class illustration" data-id="illustration" >
+          <div class="class-image i-6">
+         
+          </div>
+          <div class="class-feature">
+            <h3>The Power of Illustration
+            </h3>
+            <div class="teacher">
+              <p class="name">Teacher: Ellena Sofia</p>
+            </div>
+            <ul>
+              <li><span>1h 1m</span></li>
+              <li><span>41708 views</span></li>
+              <li><span>34 comments</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="class tech" data-id="tech" >
+          <div class="class-image i-7">
+         
+          </div>
+          <div class="class-feature">
+            <h3>Learning the Basics of Python
+            </h3>
+            <div class="teacher">
+              <p class="name">Teacher: David Brent</p>
+            </div>
+            <ul>
+              <li><span>2h 51m</span></li>
+              <li><span>82400 views</span></li>
+              <li><span>180 comments</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="class tech" data-id="tech" >
+          <div class="class-image i-8">
+         
+          </div>
+          <div class="class-feature">
+            <h3>Learning the Basics of Machine Learning
+            </h3>
+            <div class="teacher">
+              <p class="name">Teacher: David Brent</p>
+            </div>
+            <ul>
+              <li><span>4h 7m</span></li>
+              <li><span>60004 views</span></li>
+              <li><span>89 comments</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="class design" data-id="design" >
+          <div class="class-image i-9">
+         
+          </div>
+          <div class="class-feature">
+            <h3>What is design?
+            </h3>
+            <div class="teacher">
+              <p class="name">Teacher: Mia Baker</p>
+            </div>
+            <ul>
+              <li><span>1h 11m</span></li>
+              <li><span>9400 views</span></li>
+              <li><span>3 comments</span></li>
+            </ul>
+          </div>
+        </div>
+      
+         
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="advertise">
+    <div class="advertise-left">
+      <div>
+        <h2 >Who Should Join Us</h2>
+        <p>Anyone who wants to learn new skills from proffesionals at home.</p>
+        <p>
+          Anyone who is eager to aquire new things but difficult to go to school.
+        </p>
+        <p>
+          Anyone who is busy working and wants to learn at your convenient time.
+        </p>
+        
+      </div>
+     
+    </div>
+
+    <div class="advertise-right">
+      <img src="./images/enroll.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="section-2" id="feature">
+
+    <h2 class="whyExpert">
+      Why Join <span class="online-lab">ONLINE LAB</span>?
+    </h2>
+
+    <div class="section-wrapper">
+     
+    <div class="features">
+    
+      <div class="feature">
+        <div class="icon">
+          <img src="./images/question.png" alt="">
+        </div>
+        <h2>Ask Questions Anytime</h2>
+        <p>ONLINE LAB has over 1k teachers who can answer all of your questions.</p>
+ 
+      </div>
+     
+      <div class="feature">
+        <div class="icon">
+          <img src="./images/teacher.png" alt="">
+        </div>
+        <h2>Experienced Teachers</h2>
+        <p>Learn practical and the latest skills from our teachers who have a lot of experience.</p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">
+          <img src="./images/clock.png" alt="">
+        </div>
+        <h2>Unlimited Access</h2>
+        <p>Watch our lectures and download so that you can watch them anywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="comment">
+
+
+      <h2>Reviews by Our Students</h2>
+      <div class="glider-contain">
+
+
+      
+        <button role="button" aria-label="Previous" class="glider-prev"><i class="fas fa-chevron-left"></i></button>
+  
+        <div class="glider">
+          <div class="review">
+            <div class="profile">
+              <div class="detail">
+                <div class="pic pic"></div>
+                <h3>Ivan Perez</h3>
+                <h4>Actor</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+
+              <p>A lot of topics to learn! Now I feel more confidence with my skills.</p>
+            </div>
+
+
+          </div>
+
+          <div class="review">
+            <div class="profile">
+              <div class="detail">
+                <div class="pic pic2"></div>
+                <h3>Stella Ellis</h3>
+                <h4>Art Assistant</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+
+              <p>Love the fact that it's affordable and high quality.</p>
+            </div>
+
+
+          </div>
+
+          <div class="review">
+            <div class="profile">
+              <div class="detail">
+                <div class="pic pic3"></div>
+                <h3>Dave Tracey</h3>
+                <h4>Developer</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+
+              <p>I like the contents of lectures. So much more to learn.</p>
+            </div>
+
+
+          </div>
+
+          <div class="review">
+            <div class="profile">
+              <div class="detail">
+                <div class="pic pic4"></div>
+                <h3>Chrysta Ford</h3>
+                <h4>Student</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+
+              <p>Helps me a lot when I can't keep up with classes at school. </p>
+            </div>
+
+
+          </div>
+
+          <div class="review">
+            <div class="profile">
+              <div class="detail">
+                <div class="pic pic5"></div>
+                <h3>Glen Baker</h3>
+                <h4>Engineer</h4>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+
+              <p>So glad to learn on ONLINE LAB. One of the best online learning platforms ever.</p>
+            </div>
+
+
+          </div>
+        </div>
+
+         
+      <button role="button" aria-label="Next" class="glider-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+
+     
+
+   
+  </section>
+
+  <section class="register">
+    <div>
+      <h1>Become a member and spark<br>
+      your skills</h1>
+    </div>
+
+    <div class="register-button">
+      <a href="pricing.html"><p>Start Learning Today</p></a>
+    </div>
+    
+
+  </section>
+
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer footer-1">
+        <h2>ONLINE LAB</h2>
+        <p>An online Learning platform which helps you learn smarter with over 1k videos and instructions</p>
+        <h3>Social Network</h3>
+        <div class="media">
+          <img src="./images/facebook.png" alt="" width="20px;">
+          <img src="./images/twitter.png" alt="" width="20px;">
+          <img src="./images/media1.png" alt="" width="20px;">
+        </div>
+      </div>
+
+      <div class="footer footer-2">
+        <p>Teach on BEEXPERT</p>
+        <p>Terms</p>
+        <p>Help and Support</p>
+        <p>Sitemap</p>
+        <p>Featured courses</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="JS/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script>
+
+    TweenMax.from('.logo', 1, {
+      delay: 0.5,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.staggerFrom('nav ul li', 1, {
+      delay: .5,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+    }, 0.2)
+
+    TweenMax.from('.header-content h1', 1, {
+      delay: 1.1,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from('.header-content .header-intro', 1, {
+      delay: 1.6,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from('.header-content .signUp', 1, {
+      delay: 1.7,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+    })
+
+    TweenMax.from('.header-content .cancel', 1, {
+      delay: 1.8,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+    })
+  </script>
+
+
+<script src="./JS/glider.min.js"></script>
+
+<script>
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  scrollLock: true,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  },
+  responsive: [
+    {
+      // screens greater than >= 775px
+      breakpoint: 775,
+      settings: {
+        // Set to `auto` and provide item width to adjust to viewport
+        slidesToShow: 'auto',
+        slidesToScroll: 'auto',
+        itemWidth: 150,
+        duration: 0.25
+      }
+    },{
+      // screens greater than >= 1024px
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        itemWidth: 150,
+        duration: 0.25
+      }
+    }
+  ]
+
+});
+</script>
+
+
+</script>
+</body>
+</html>
